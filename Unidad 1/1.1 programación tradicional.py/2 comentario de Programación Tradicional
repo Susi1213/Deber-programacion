@@ -1,0 +1,7 @@
+Aquí se definen tres funciones:
+1. La función ingresar_temperaturas_diarias() solicita al usuario que ingrese las
+temperaturas diarias durante una semana y las almacena en una lista.
+2. La función calcular_promedio_semanal(temperaturas) recibe la lista de temperaturas y
+calcula el promedio semanal.
+3. La función main() es la función principal que llama a las otras dos funciones y muestra
+el resultado final.

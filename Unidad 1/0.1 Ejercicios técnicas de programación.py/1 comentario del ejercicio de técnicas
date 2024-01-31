@@ -1,0 +1,9 @@
+# Ejemplo de encapsulación al intentar acceder a un método privado
+# manzana.__actualizar_stock(10)  # Esto generaría un error, ya que el método es privado
+manzana.agregar_stock(20)  # Esto funciona, ya que el método público utiliza el método privado
+Este código demuestra la abstracción y encapsulación a través de la clase base Fruta.
+Se crean instancias de frutas (manzana y plátano) y se muestra su descripción utilizando el método descripcion().
+Además, se muestra el uso de encapsulación al tener un método privado __actualizar_stock, que solo puede ser accedido internamente.
+
+Por último, se realiza una demostración del método público agregar_stock, que utiliza el método privado __actualizar_stock para actualizar el stock de la fruta.
+Se comenta cómo intentar acceder directamente al método privado generarían errores, pero al utilizar el método público, se puede realizar la acción encapsulada de manera controlada.

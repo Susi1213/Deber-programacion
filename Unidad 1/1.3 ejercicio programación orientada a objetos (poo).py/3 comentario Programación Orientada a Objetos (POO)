@@ -1,0 +1,10 @@
+Aquí se define una clase ClimaSemana que tiene dos métodos:
+1. El método ingresar_temperaturas_diarias() solicita al usuario que ingrese las
+temperaturas diarias durante una semana y las almacena en una lista dentro de la instancia de
+la clase.
+2. El método calcular_promedio_semanal() utiliza la lista de temperaturas almacenadas
+en la instancia de la clase para calcular el promedio semanal.Este código representa un sistema simple de reservas de habitaciones de hotel.
+La clase Hotel tiene métodos para agregar habitaciones, mostrar habitaciones disponibles y realizar reservas.
+La clase Habitacion representa cada habitación del hotel y tiene un método para reservarla.
+La clase Cliente se utiliza para representar a los clientes que realizan reservas.
+Este ejemplo muestra la interacción entre objetos para simular un sistema de reservas en el mundo real.
