@@ -165,14 +165,14 @@ def menu():
             nombre = input("Ingrese el nombre o parte del nombre del producto:")
             inventario.buscar_producto(nombre)
         elif opcion == '5':
-<<<<<<< HEAD
             inventario.mostrar_productos()
+
+            inventario.mostrar_inventario()
+=======
 
 if __name__ == "__main__":
     menu()
-=======
-            inventario.mostrar_inventario()
-
 if __name__ == "__main__":
+    <<<<<<< HEAD
     menu()
 >>>>>>> 24a03fb (PROGRAMACION ORIENTADA A OBJETOS.iml)
